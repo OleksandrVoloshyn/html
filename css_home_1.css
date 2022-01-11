@@ -1,0 +1,19 @@
+html, body {
+    scroll-behavior: smooth;
+}
+
+h2 {
+    background: plum;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.person {
+    color: aqua;
+}
