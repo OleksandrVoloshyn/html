@@ -1,0 +1,46 @@
+body {
+    border: 4px solid orangered;
+    width: 500px;
+    padding-top: 20px;
+}
+
+body > * {
+    margin: 10px;
+
+}
+
+ul {
+    border: 4px solid cornflowerblue;
+    display: inline-block;
+    padding-inline: 0 10px;
+    padding-top: 10px;
+}
+
+li {
+    border: 4px solid steelblue;
+    list-style-type: none;
+    margin: 5px;
+    padding-right: 200px;
+}
+
+.brdr {
+    border: 4px solid;
+}
+
+.h {
+    border-color: green;
+}
+
+.first {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.par {
+    border-color: darkorange;
+}
+
+.main_img {
+    width: 400px;
+    margin-bottom: 0;
+}
