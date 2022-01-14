@@ -1,0 +1,40 @@
+.square {
+    height: 200px;
+    width: 200px;
+    background: #ffb002;
+    margin: 40px;
+
+    box-sizing: border-box;
+    padding: 93px;
+
+
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+.target_A {
+    box-shadow: black 20px 20px;
+}
+
+.target_B {
+    box-shadow: black 20px 20px 5px;
+}
+
+.target_C {
+    box-shadow: black 20px 20px 5px 5px;
+}
+
+.target_D {
+    box-shadow: #9f9f9f 20px 20px 3px;
+}
+
+.target_E {
+    box-shadow: black 20px 20px 5px;
+    border-radius: 10px;
+}
+
+.target_F {
+    box-shadow: #9f9f9f 20px 20px 1px 5px;
+    border-radius: 10px;
+}

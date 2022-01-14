@@ -1,0 +1,29 @@
+h1 {
+    background: #920a23;
+    text-align: center;
+    color: #f7ecd6;
+}
+
+.double_col {
+    background: #c0c0c0;
+    padding: 10px;
+}
+
+.short_raw {
+    background: #7081f0;
+    padding: 30px 0;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+}
+
+.usual_square {
+    background: #47c963;
+}
+
+.square_with_radius {
+    background: #8e7fae;
+    border-radius: 20px;
+}

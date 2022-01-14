@@ -1,0 +1,12 @@
+.figure{
+    background: #818181;
+    height: 200px;
+    width: 400px;
+    margin-top: 50px;
+    box-shadow: #d6ba8f -5px -15px 13px 3px;
+}
+
+.txt {
+    border-left: 3px solid red;
+    padding-left: 20px;
+}

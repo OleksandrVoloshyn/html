@@ -6,11 +6,11 @@ body {
 
 body > * {
     margin: 10px;
-
+    border: 4px solid;
 }
 
 ul {
-    border: 4px solid cornflowerblue;
+    border-color: cornflowerblue;
     display: inline-block;
     padding-inline: 0 10px;
     padding-top: 10px;
@@ -21,10 +21,6 @@ li {
     list-style-type: none;
     margin: 5px;
     padding-right: 200px;
-}
-
-.brdr {
-    border: 4px solid;
 }
 
 .h {
@@ -43,4 +39,5 @@ li {
 .main_img {
     width: 400px;
     margin-bottom: 0;
+    border: none;
 }

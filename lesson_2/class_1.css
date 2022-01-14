@@ -1,0 +1,35 @@
+body {
+    background: #272727;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35vh;
+}
+
+.figure {
+    border: 5px solid;
+    padding: 15px 70px;
+    margin: 5px;
+    border-radius: 40px;
+}
+
+.div_1 {
+    border-color: #ff6002;
+    color: #ff6002;
+}
+
+.div_2 {
+    border-color: aqua;
+    color: aqua;
+}
+
+.div_3{
+    border-color: hotpink;
+    color: hotpink;
+}
+
+.div_4 {
+    border-color: #ff0233;
+    color: #ff0233;
+}
