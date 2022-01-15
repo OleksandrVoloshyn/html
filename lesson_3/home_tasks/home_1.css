@@ -1,0 +1,35 @@
+.wrap{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.marg5{
+    margin: 5px;
+}
+
+.txt_and_color{
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height: 100px;
+}
+
+.main{
+    margin-top: 5px;
+    display: flex;
+    /*justify-content: space-between;*/
+}
+
+.big_div{
+    width: 70%;
+    height: 300px;
+}
+
+.small_div{
+    width: 30%;
+    height: 300px;
+}

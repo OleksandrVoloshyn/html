@@ -1,0 +1,30 @@
+.header {
+    height: 100px;
+    background: #7081f0;
+}
+
+.nav {
+    height: 60px;
+    background: blueviolet;
+}
+
+.wrap {
+    display: flex;
+}
+
+.main {
+    height: 300px;
+    width: 70%;
+    background: aqua;
+}
+
+.aside {
+    height: 300px;
+    width: 30%;
+    background: fuchsia;
+}
+
+.footer {
+    background: cornflowerblue;
+    height: 60px;
+}

@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background: aqua;
+    height: 800px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+
+.point {
+    background: white;
+    border-radius: 5px;
+    width: 450px;
+    margin: 10px;
+    display: flex;
+}
+
+.i_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.i_wrap > i{
+    color: silver;
+}
+
+.txt {
+    margin-bottom: 18px
+}
