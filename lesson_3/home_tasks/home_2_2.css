@@ -1,20 +1,30 @@
-.widgets{
-    background: cornflowerblue;
+.header {
+    background: #3854bf;
     height: 100px;
 }
-.main{
+
+.main {
     display: flex;
     justify-content: space-between;
+
     margin: 5px 0;
 }
 
-.widget{
+.widget {
     height: 100px;
     width: 33%;
-    background: deepskyblue;
+    background: #24397d;
 }
 
-.contact{
+.contact {
     height: 300px;
-    background: cornflowerblue;
+    background: #3854bf;
+}
+
+.txt {
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

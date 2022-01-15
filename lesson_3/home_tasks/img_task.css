@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: aqua;
+    background: #02bed7;
     height: 800px;
 
     display: flex;
@@ -27,8 +27,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
     padding: 40px;
+    font-size: 30px;
     color: silver;
+}
+
+.point > div{
+    padding-bottom: 5px;
+}
+
+.point > div > h3 {
+    color: orange;
 }
 
 .txt {

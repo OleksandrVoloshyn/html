@@ -1,20 +1,32 @@
-#header, #footer{
+#header, #footer {
     height: 100px;
-    background: yellow;
+    background: #dcffad;
 }
 
-.main{
-    display: flex;
-    justify-content: space-between;
-}
-
-#menu{
+#menu {
     height: 400px;
     width: 25%;
-    background: plum;
+    background: #ff9eff;
+    margin-right: 5px;
 }
 
-.wrap{
+.common {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 5px 0;
+}
+
+.wrap {
     height: 400px;
     width: 100%;
 
@@ -23,9 +35,8 @@
     justify-content: space-between;
 }
 
-.post{
+.post {
     width: 100%;
     height: 49%;
-    background: aqua;
+    background: #99e1ff;
 }
-

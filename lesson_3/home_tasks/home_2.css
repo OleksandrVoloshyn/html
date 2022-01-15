@@ -1,11 +1,11 @@
 .header {
     height: 100px;
-    background: #7081f0;
+    background: #2356ab;
 }
 
 .nav {
     height: 60px;
-    background: blueviolet;
+    background: #1c437b;
 }
 
 .wrap {
@@ -15,16 +15,23 @@
 .main {
     height: 300px;
     width: 70%;
-    background: aqua;
+    background: #02a1c8;
 }
 
 .aside {
     height: 300px;
     width: 30%;
-    background: fuchsia;
+    background: #596ab1;
 }
 
 .footer {
-    background: cornflowerblue;
+    background: #77c9e4;
     height: 60px;
+}
+
+.txt{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
