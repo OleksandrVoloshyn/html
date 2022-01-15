@@ -23,13 +23,11 @@ body {
     display: flex;
 }
 
-.i_wrap {
+.point > i {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px;
-}
-.i_wrap > i{
     color: silver;
 }
 
