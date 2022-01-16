@@ -1,0 +1,46 @@
+.wrap {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.common {
+    background: silver;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header, .main {
+    margin: 5px;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.main {
+    display: flex;
+}
+
+.content {
+    width: 75%;
+}
+
+.top_div {
+    margin-bottom: 5px;
+}
+
+.small_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mini_div{
+    width: 33%;
+}
+
+.aside {
+    margin-left: 5px;
+    width: 25%;
+}

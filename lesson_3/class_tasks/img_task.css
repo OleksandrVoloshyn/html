@@ -1,0 +1,46 @@
+.header {
+    text-align: center;
+    font-size: 20px;
+}
+
+i {
+    color: #9a9a9a;
+    font-size: 20px;
+}
+
+.carts {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: 1px 1px 1px silver;
+    text-align: justify;
+    background: snow;
+}
+
+.cart > h3 {
+    color: #ba6316;
+}
+
+.txt {
+    text-align: center;
+    color: #9a9a9a;
+}
+
+.btn {
+    width: 40%;
+    color: snow;
+    background: #28cbb7;
+    text-align: center;
+    padding: 5px 0;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 10px 0;
+}

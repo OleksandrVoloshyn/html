@@ -1,0 +1,47 @@
+.wrap {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.common {
+    background: silver;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.header, .main {
+    margin: 5px;
+}
+
+.main {
+    display: flex;
+}
+
+.content {
+    width: 75%;
+}
+
+.top_part{
+    margin-bottom: 5px;
+}
+
+.top_part, .bottom_part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small_block{
+    width: 33%;
+}
+
+
+.aside {
+    width: 25%;
+    margin-left: 5px;
+}
