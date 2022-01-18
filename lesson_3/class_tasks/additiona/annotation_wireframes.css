@@ -1,4 +1,9 @@
+body{
+    background: #b3c9d7;
+}
+
 .target {
+    background: snow;
     margin: 25px auto;
     width: 400px;
 }
