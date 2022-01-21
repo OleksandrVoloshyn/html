@@ -1,0 +1,122 @@
+.base-silver-clr {
+    background: #9f9f9f;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-jc-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h40 {
+    height: 40px;
+}
+
+.h80 {
+    height: 80px;
+}
+
+.w25proc {
+    width: 25%;
+}
+
+.w-for3-block {
+    width: calc(100% / 3);
+}
+
+.w75proc {
+    width: 75%;
+}
+
+.brdr {
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.box-size {
+    box-sizing: border-box;
+}
+
+.gap {
+    gap: 5px;
+}
+
+.gap-flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.marg5 {
+    margin: 5px;
+}
+
+.marg-bot-5 {
+    margin-bottom: 5px;
+}
+
+.txt-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+.main-wrap {
+    border: 2px solid silver;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+@media screen and (min-width: 0) and (max-width: 576px) {
+    .mbl-w-full {
+        width: 100%;
+    }
+
+    .mbl-h20 {
+        height: 20px;
+        width: 100%;
+    }
+
+    .mbl-rad {
+        border-radius: 10px;
+    }
+
+    .mbl-block {
+        display: block;
+    }
+
+    .mbl-mrg5 {
+        margin: 5px 0;
+    }
+
+    .mbl-h40 {
+        height: 40px;
+    }
+
+    .mbl-h30 {
+        height: 30px;
+        max-height: 30px;
+    }
+
+    .mbl-h-auto {
+        height: auto;
+    }
+
+    .mbl-round > div {
+        width: auto;
+        height: auto;
+        padding: 5px;
+        border-radius: 50%;
+    }
+}
+
+.xxx {
+    overflow: hidden;
+}
